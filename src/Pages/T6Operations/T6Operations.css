@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.t5-banner{
+    background-image: url("../../../public/images/images-entour/Landing_home.png");
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* overflow-x: hidden; */
+  }
+.t5-banner .banner-section{
+    padding: 7rem;
+}
+  
+  .map-circle  img{
+    
+    height: 350px;
+    width: 350px;
+    margin-top: 2rem;
+    /* padding-top: 2rem; */
+    border-radius: 50%;
+  }
+  button {
+    --color: #A0D2FF;
+    font-family: inherit;
+    display: inline-block;
+    width: 10em;
+    height: 2.6em;
+    /* line-height: 2.5em; */
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    color: var(--color);
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #A0D2FF;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #A0D2FF;
+    transition: background 0s;
+   }
+  
+   /* information-section */
+   .img-heading img{
+    height: 80px;
+    width: auto;
+   }
+
+   /* cards of t2 */
+   .background-color-card{
+    background-color: #EBEAEB;
+    padding: 28px;
+   }
+
+   /* .imagetext */
+   .images-text{
+    background-color: #031C86;
+   }
+   .side-image-one img{
+    height: 250px;
+    width: auto;
+   }
+   .images-text .side-image img{
+    height: 350px;
+    width: auto;
+   }
+
+   .images-text .image-2{
+    height: 250px;
+    width: auto;
+   }
+
+   /* accordion */
+main img {
+	width: 100%;
+}
+
+.navigation {
+	font-weight: 300;
+	font-size: 0.9375rem;
+	max-width: 460px;
+	min-width: 216px;
+	margin: 0 auto;
+	color: #696666;
+}
+
+.navigation__logo {
+	width: 216px;
+	margin: 0 auto;
+	padding-bottom: 18px;
+}
+
+.image-GTF img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.t3-schedule{
+    background-image: url("../../../public/images/images-entour/operations.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.t4-gtfs-static{
+    background-image: url("../../../public/images/images-entour/operators.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* social icons */
+.social-icons .icons a{
+    color: rgb(28, 28, 28);
+  }
+  .social-icons .icons a:hover{
+    color: rgb(255, 94, 0);
+  }
+  
+
+
+  

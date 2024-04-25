@@ -15,24 +15,22 @@ const Header = () => {
         <nav className="site-nav">
           <div className="container">
             <div className="site-navigation">
-              <a href="index.html" className="logo m-0">
+              <a href="/" className="logo m-0">
                 <img src="/images/logo white.png" width={200} alt="" />
                 <span className="text-primary" />
               </a>
               <ul className="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
                 <li className="active">
-                  <a href="index.html">GTFS</a>
+                  <a href="/">GTFS</a>
                 </li>
                 <li>
-                  <a href="services.html">Resources</a>
+                  <a href="/Services">Resources</a>
                 </li>
                 <li>
-                  <a href="services.html">Pricing</a>
+                  <a href="/Pricing">Pricing</a>
                 </li>
                 {/* <li><a href="about.html">About</a></li> */}
-                <li>
-                  <a href="#">Partners</a>
-                </li>
+               
                 <li className="dropdown">
                   <a
                     href="#"
@@ -47,28 +45,28 @@ const Header = () => {
                   <ul className="dropdown-menu">
                     {/* Dropdown menu items */}
                     <li>
-                      <a href="/t1enroute"> T1 Enroute </a>
+                      <a href="/T1Enroute"> T1 Enroute </a>
                     </li>
                     <li>
-                      <a href="t2.html">T2 Performance </a>
+                      <a href="/T2Performance">T2 Performance </a>
                     </li>
                     <li>
-                      <a href="t3.html">T3 Schedules </a>
+                      <a href="/T3Schedules">T3 Schedules </a>
                     </li>
                     <li>
-                      <a href="t4.html">T4 GTFS Static </a>
+                      <a href="/T4GTFSStatic">T4 GTFS Static </a>
                     </li>
                     <li>
-                      <a href="t5.html">T5 GTFS Realtime </a>
+                      <a href="/T5GTFSRealtime">T5 GTFS Realtime </a>
                     </li>
                     <li>
-                      <a href="t6.html">T6 Operations </a>
+                      <a href="/T6Operations">T6 Operations </a>
                     </li>
                     <li>
-                      <a href="t7.html">T7 Insights </a>
+                      <a href="/T7Insights">T7 Insights </a>
                     </li>
                     <li>
-                      <a href="t8.html">T8 Governance </a>
+                      <a href="/T8Governance">T8 Governance </a>
                     </li>
                   </ul>
                 </li>
@@ -86,16 +84,16 @@ const Header = () => {
                   <ul className="dropdown-menu">
                     {/* Dropdown menu items */}
                     <li>
-                      <a href="about.html">About</a>
+                      <a href="/About">About</a>
                     </li>
                     <li>
-                      <a href="contact.html">Contact Us</a>
+                      <a href="/Contact">Contact Us</a>
                     </li>
                   </ul>
                 </li>
                 &nbsp; &nbsp;
                 <li>
-                  <a href="Sign-up.html">Login</a>
+                  <a href="/SignIn">Login</a>
                 </li>
               </ul>
               <a
