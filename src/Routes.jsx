@@ -12,7 +12,7 @@ const ProjectRoutes = () => {
         <Router>
           <Routes>
             <Route path="/t1enroute" element={<T1Enroute />} />
-            <Route path="/home" element={<Home/>} />
+            <Route path="/" element={<Home/>} />
           </Routes>
         </Router>
       </React.Suspense>
