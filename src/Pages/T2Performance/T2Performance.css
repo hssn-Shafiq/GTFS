@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.t2-banner {
+  background-image: url("../../../public/images/images-entour/Landing_home.png");
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* overflow-x: hidden; */
+}
+
+.t2-banner .banner-section {
+  padding: 7rem;
+}
+
+.map-circle img {
+  height: 300px;
+  width: 300px;
+  margin-top: 2rem;
+  /* padding-top: 2rem; */
+  border-radius: 50%;
+}
+button {
+  --color: #a0d2ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: var(--color);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #a0d2ff;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+button:active:before {
+  background: #a0d2ff;
+  transition: background 0s;
+}
+
+/* information-section */
+.img-heading img {
+  height: 80px;
+  width: auto;
+}
+
+/* cards of t2 */
+.background-color-card {
+  background-color: #ebeaeb;
+  padding: 28px;
+}
+
+/* .imagetext */
+.images-text {
+  background-color: #031c86;
+}
+.images-text .side-image img {
+  height: 300px;
+  width: auto;
+}
+
+.images-text .image-2 {
+  height: 350px;
+  width: auto;
+}
+
+/* accordion */
+main img {
+  width: 100%;
+}
+
+.navigation {
+  font-weight: 300;
+  font-size: 0.9375rem;
+  max-width: 460px;
+  min-width: 216px;
+  margin: 0 auto;
+  color: #696666;
+}
+
+.navigation__logo {
+  width: 216px;
+  margin: 0 auto;
+  padding-bottom: 18px;
+}
+
+.accordion,
+.sub-accordion {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.accordion__item {
+  background: #e7e7e7;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.accordion__item:nth-child(odd) > :first-child:not(.accordion__link_active) {
+  color: #ffffff;
+  background: #696666;
+}
+.accordion__link {
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  color: #696666;
+  text-decoration: none;
+  border-radius: 20px;
+  display: block;
+  padding: 12px 50px 12px 20px;
+}
+.accordion__link:not(.accordion__link_active):after {
+  position: absolute;
+  content: "";
+  border-top: 12px #ffa500 solid;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  right: 22px;
+  top: 50%;
+  transform: translatey(-6px);
+}
+.accordion__link:not(.accordion__link_active):hover {
+  opacity: 0.8;
+  color: #fff;
+  background: #b8b8b8;
+}
+.accordion__link:not(.accordion__link_active):hover:after {
+  border-top: 12px #ffffff solid;
+}
+
+.sub-accordion {
+  padding: 5px 20px;
+  display: none;
+  height: 0;
+  overflow: hidden;
+}
+.sub-accordion__item {
+  padding: 5px 0;
+}
+
+.accordion__link_active {
+  color: #ffffff;
+  background-color: #ff8663;
+}
+.accordion__link_active:after {
+  position: absolute;
+  content: "";
+  border-bottom: 12px #fff solid;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  right: 22px;
+  top: 50%;
+  transform: translatey(-6px);
+}
+.accordion__link_active + ul {
+  display: block;
+  height: 100%;
+}
+.image-GTF img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+.t3-schedule {
+  background-image: url("../../../public/images/images-entour/schedules.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.t4-gtfs-static {
+  background-image: url("../../../public/images/images-entour/static.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* social icons */
+.social-icons .icons a {
+  color: rgb(28, 28, 28);
+}
+.social-icons .icons a:hover {
+  color: rgb(255, 94, 0);
+}
+
+/* footer start */
+.site-footer {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+.site-footer .inner {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background: #f8f9fa;
+}
+.site-footer .inner.first {
+  padding-top: 80px;
+}
+@media (max-width: 991.98px) {
+  .site-footer {
+    padding-top: 30px;
+  }
+}
+.site-footer a {
+  color: #000000;
+}
+.site-footer a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.site-footer .widget {
+  margin-bottom: 30px;
+}
+.site-footer .widget h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+.site-footer .widget .social li {
+  display: inline-block;
+}
+.site-footer .widget .social li a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(2, 143, 194);
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.site-footer .widget .social li a span {
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.site-footer .widget .social li a:hover {
+  background-color: rgb(2, 143, 194);
+  color: #ffffff;
+}
+.site-footer .widget .links li {
+  display: block;
+  margin-bottom: 10px;
+}
+.site-footer .widget .links li a {
+  color: #000000;
+}
+.site-footer .widget .links li a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.site-footer ul.quick-info li {
+  position: relative;
+  padding-left: 30px;
+}
+.site-footer ul.quick-info li:before {
+  left: 0;
+  position: absolute;
+  content: "";
+  font-family: "icomoon";
+  color: #6998ab;
+}
+.site-footer ul.quick-info li.email:before {
+  content: "\f0e0";
+}
+.site-footer ul.quick-info li.phone:before {
+  content: "\f095";
+}
+.site-footer ul.quick-info li.address:before {
+  content: "\e8b4";
+}
