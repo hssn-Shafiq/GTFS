@@ -47,7 +47,7 @@ const Header = () => {
                   <ul className="dropdown-menu">
                     {/* Dropdown menu items */}
                     <li>
-                      <a href="t1-enroute.html"> T1 Enroute </a>
+                      <a href="/t1enroute"> T1 Enroute </a>
                     </li>
                     <li>
                       <a href="t2.html">T2 Performance </a>
