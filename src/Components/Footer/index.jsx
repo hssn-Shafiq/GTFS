@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./footer.css"
 const Footer = () => {
   return (
     <>
@@ -22,42 +22,47 @@ const Footer = () => {
                   <ul className="list-unstyled social">
                     <li>
                       <a href="#">
-                        <span className="icon-twitter" />
+                      <i className="fa-brands fa-youtube" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-instagram" />
+                      <i className="fa-brands fa-instagram" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-facebook" />
+                      <i className="fa-brands fa-facebook" />
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-linkedin" />
+                      <i className="fa-brands fa-linkedin" />
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-dribbble" />
+                      <i className="fa-brands fa-dribbble" />
+
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-pinterest" />
+                      <i className="fa-brands fa-pinterest" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-apple" />
+                      <i className="fa-brands fa-apple" />
+                      
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span className="icon-google" />
+                      <i className="fa-brands fa-google" />
+                       
                       </a>
                     </li>
                   </ul>

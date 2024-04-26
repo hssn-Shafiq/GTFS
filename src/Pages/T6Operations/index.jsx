@@ -4,6 +4,7 @@ import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import T1Banner from "../../Components/T1banner";
 import TransitInformation from "../../Components/TransitInformation";
+import FollowUs from "../../Components/FollowUs";
 
 
 
@@ -50,7 +51,7 @@ const T6Operations = () => {
                         </div>
                         <div className="col-lg-6 side-image-one">
                             <img
-                                src="images/images.entour/parked-and-blue-buses-with+vehicle-details-drawer.png"
+                                src="images/images-entour/parked-and-blue-buses-with+vehicle-details-drawer.png"
                                 alt=""
                             />
                         </div>
@@ -58,7 +59,7 @@ const T6Operations = () => {
                     <div className="row p-4">
                         <div className="col-lg-6 image-2">
                             <img
-                                src="images/images.entour/connect2route.png"
+                                src="images/images-entour/connect2route.png"
                                 className=""
                                 style={{ height: 250, width: "auto" }}
                                 alt=""
@@ -87,7 +88,7 @@ const T6Operations = () => {
                             </p>
                         </div>
                         <div className="col-lg-6 side-image">
-                            <img src="images/images.entour/TRANSIT+APP.png" alt="" />
+                            <img src="images/images-entour/TRANSIT+APP.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -117,7 +118,7 @@ const T6Operations = () => {
                         <a href="t4.html">
                             <button className="btn-two-images-section">Learn more</button>
                         </a>
-                        {/* <img src="images/images.entour/performance.png" alt=""> */}
+                        {/* <img src="images/images-entour/performance.png" alt=""> */}
                     </div>
                     <div className="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
                         <h4>More riders. More revenue.</h4>
@@ -130,41 +131,7 @@ const T6Operations = () => {
             </div>
 
             {/* social media icons */}
-            <div className="social-icons">
-                <div className="container text-center">
-                    <h3>Stay connected with Bus Mate</h3>
-                    <p>Follow us in all our channels</p>
-                    <div className="icons mt-4">
-                        <ul className="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-                            <a href="#">
-                                <li>
-                                    <i className="fa-brands fa-facebook" />
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-brands fa-instagram" />
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-brands fa-twitter" />
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-brands fa-linkedin" />
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li>
-                                    <i className="fa-brands fa-youtube" />
-                                </li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+           <FollowUs />
 
             <Footer />
         </>

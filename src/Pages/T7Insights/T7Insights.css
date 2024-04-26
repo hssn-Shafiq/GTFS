@@ -91,7 +91,8 @@
 
    /* .imagetext */
    .images-text{
-    background-color: #031C86;
+ background: linear-gradient(250deg, #023460, #1c2331 80%);
+
    }
    .side-image-one img{
     height: 250px;

@@ -9,6 +9,7 @@ import TransitInformation from "../../Components/TransitInformation";
 import TransitCards from "../../Components/TransitCards";
 import TransitTwoImages from "../../Components/TransitTwoImages";
 import Subscribe from "../../Components/Subscribe";
+import FollowUs from "../../Components/FollowUs";
 
 const T3Schedules = () => {
     return (
@@ -57,13 +58,13 @@ const T3Schedules = () => {
                         </p>
                     </div>
                     <div className="col-lg-6 side-image">
-                        <img src="/images/images.entour/Passenger+capacity.png" alt="" />
+                        <img src="/images/images-entour/Passenger+capacity.png" alt="" />
                     </div>
                 </div>
                 <div className="row p-4">
                     <div className="col-lg-6 image-2">
                         <img
-                            src="/images/images.entour/lots-of-blue-buses (1).png"
+                            src="/images/images-entour/lots-of-blue-buses (1).png"
                             className=""
                             style={{ height: 300, width: "auto" }}
                             alt=""
@@ -115,7 +116,7 @@ const T3Schedules = () => {
                             <a href="t4.html">
                                 <button className="btn-two-images-section">Learn more</button>
                             </a>
-                            {/* <img src="images/images.entour/performance.png" alt=""> */}
+                            {/* <img src="images/images-entour/performance.png" alt=""> */}
                         </div>
                         <div className="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
                             <h4>More riders. More revenue.</h4>
@@ -128,41 +129,7 @@ const T3Schedules = () => {
                 </div>
 
                 {/* social media icons */}
-                <div className="social-icons">
-                    <div className="container text-center">
-                        <h3>Stay connected with Bus Mate</h3>
-                        <p>Follow us in all our channels</p>
-                        <div className="icons mt-4">
-                            <ul className="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-facebook" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-instagram" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-twitter" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-linkedin" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-youtube" />
-                                    </li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+               <FollowUs />
                 <Subscribe />
             </>
             <Footer />

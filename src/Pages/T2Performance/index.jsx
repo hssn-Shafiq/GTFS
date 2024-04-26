@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer";
 import Accordion from "../../Components/Accordion";
 import T1Banner from "../../Components/T1banner";
 import TransitInformation from "../../Components/TransitInformation";
+import FollowUs from "../../Components/FollowUs";
 
 
 const T2Performance = () => {
@@ -25,7 +26,7 @@ const T2Performance = () => {
                 {/* information section */}
                 <TransitInformation
                     title="T1 Enroute transit service"
-                    imgsrc="images/images.entour/T2_performance.png"
+                    imgsrc="images/images-entour/T2_performance.png"
                     detail=" With our T1 Enroute transit service you easily start the digitalization
                     process of your public transport system. This service is the first step
                     in creating GTFS Static feeds. It will help you to understand the static
@@ -129,7 +130,7 @@ const T2Performance = () => {
                         </div>
                         <div className="col-lg-6 image-2" style={{ height: 350, width: "auto" }}>
                             <img
-                                src="/images/images.entour/lots-of-blue-buses (1).png"
+                                src="/images/images-entour/lots-of-blue-buses (1).png"
                                 className=""
                                 style={{ height: 300, width: "auto" }}
                                 alt=""
@@ -163,7 +164,7 @@ const T2Performance = () => {
                             <a href="t3.html">
                                 <button className="btn-two-images-section">Learn more</button>
                             </a>
-                            {/* <img src="images/images.entour/performance.png" alt=""> */}
+                            {/* <img src="images/images-entour/performance.png" alt=""> */}
                         </div>
                         <div className="col-lg-6 text-light t4-gtfs-static d-flex justify-content-center align-items-center flex-column">
                             <h4>Learn more about GTFS data</h4>
@@ -175,41 +176,7 @@ const T2Performance = () => {
                     </div>
                 </div>
                 {/* social media icons */}
-                <div className="social-icons">
-                    <div className="container text-center">
-                        <h3>Stay connected with Bus Mate</h3>
-                        <p>Follow us in all our channels</p>
-                        <div className="icons mt-4">
-                            <ul className="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-                                <a href="javascript:void(0)">
-                                    <li>
-                                        <i className="fa-brands fa-facebook" />
-                                    </li>
-                                </a>
-                                <a href="javascript:void(0)">
-                                    <li>
-                                        <i className="fa-brands fa-instagram" />
-                                    </li>
-                                </a>
-                                <a href="javascript:void(0)">
-                                    <li>
-                                        <i className="fa-brands fa-twitter" />
-                                    </li>
-                                </a>
-                                <a href="javascript:void(0)">
-                                    <li>
-                                        <i className="fa-brands fa-linkedin" />
-                                    </li>
-                                </a>
-                                <a href="javascript:void(0)">
-                                    <li>
-                                        <i className="fa-brands fa-youtube" />
-                                    </li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <FollowUs />
             </main>
             <Footer />
         </>

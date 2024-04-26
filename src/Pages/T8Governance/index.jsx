@@ -6,6 +6,7 @@ import Footer from "../../Components/Footer";
 import T1Banner from "../../Components/T1banner";
 import TransitInformation from "../../Components/TransitInformation";
 import TransitCards from "../../Components/TransitCards";
+import FollowUs from "../../Components/FollowUs";
 
 const T8Governance = () => {
     return (
@@ -30,7 +31,7 @@ const T8Governance = () => {
                 cities."
 
             />
-            <>
+           
                 {/* cards */}
                 <div className="cards-t2">
                     <div className="container">
@@ -112,9 +113,9 @@ const T8Governance = () => {
                         </div>
                     </div>
                 </div>
-            </>
+            
 
-            <>
+          
                 {/* two images */}
                 <div className="two-images-section overflow-hidden">
                     <div className="row p-5 g-3">
@@ -135,45 +136,11 @@ const T8Governance = () => {
                         </div>
                     </div>
                 </div>
-            </>
-            <>
+            
+           
                 {/* social media icons */}
-                <div className="social-icons">
-                    <div className="container text-center">
-                        <h3>Stay connected with Bus Mate</h3>
-                        <p>Follow us in all our channels</p>
-                        <div className="icons mt-4">
-                            <ul className="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-facebook" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-instagram" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-twitter" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-linkedin" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-youtube" />
-                                    </li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </>
+              <FollowUs />
+     
             <Footer />
         </>
 

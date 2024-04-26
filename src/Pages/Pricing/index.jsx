@@ -2,6 +2,7 @@ import React from "react";
 import "./Pricing.css";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
+import FollowUs from "../../Components/FollowUs";
 
 const Pricing = () => {
     return (
@@ -148,41 +149,7 @@ const Pricing = () => {
                 {/* privcing ends */}
                 <hr style={{ height: 12 }} />
                 {/* social media icons */}
-                <div className="social-icons mt-5">
-                    <div className="container text-center">
-                        <h3>Stay connected with Bus Mate</h3>
-                        <p>Follow us in all our channels</p>
-                        <div className="icons mt-4">
-                            <ul className="list-unstyled d-flex justify-content-evenly align-items-center fs-2">
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-facebook" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-instagram" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-twitter" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-linkedin" />
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li>
-                                        <i className="fa-brands fa-youtube" />
-                                    </li>
-                                </a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+              <FollowUs />
             </main>
 
             <Footer />
