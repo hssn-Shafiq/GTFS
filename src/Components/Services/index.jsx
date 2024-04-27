@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 
 const Services = () => {
   return (
     <>
       <div className="untree_co-section">
         <div className="container">
-          <div className="row mb-5 justify-content-center">
+          <div
+            className="row mb-5 justify-content-center"
+            data-aos="fade-right"
+           
+          >
             <div className="col-lg-6 text-center">
-              <h2 className="section-title text-center mb-3">Our Services</h2>
+              <h2 className="section-title text-center mb-3" data-aos="fade-up">Our Services</h2>
             </div>
           </div>
           <div className="row align-items-stretch">
@@ -16,12 +21,18 @@ const Services = () => {
                 <div className="frame h-100">
                   <div
                     className="feature-img-bg h-100"
+                    data-aos="flip-up"
                     style={{ backgroundImage: 'url("images/5.jpg")' }}
                   />
                 </div>
               </div>
             </div>
-            <div className="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1">
+            <div
+              className="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+             
+            >
               <div className="feature-1 d-md-flex">
                 <div className="align-self-center">
                   {/* <span class="flaticon-house display-4 text-primary"></span> */}
@@ -46,7 +57,11 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3">
+            <div className="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
+             data-aos="fade-up"
+             data-aos-duration="2000"
+            
+             >
               <div className="feature-1 d-md-flex">
                 <div className="align-self-center">
                   <img

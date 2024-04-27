@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../Components/Header";
 import HomeSlider from "../../Components/HomeSlider";
 import Services from "../../Components/Services";
@@ -9,12 +9,17 @@ import Testimonials from "../../Components/Testimonials";
 import ServiceVideo from "../../Components/ServiceVideo";
 import Subscribe from "../../Components/Subscribe";
 import Footer from "../../Components/Footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <Header />
-      <HomeSlider />
+      <HomeSlider  />
       <Services />
       <RouteMap />
       <Tools />

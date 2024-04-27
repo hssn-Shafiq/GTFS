@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./t1banner.css"
 const T1Banner = ({title, subtitle,subtitle2, subtitle3,btnlink,btntext,imgsrc}) => {
   return (
     <>
@@ -11,7 +11,7 @@ const T1Banner = ({title, subtitle,subtitle2, subtitle3,btnlink,btntext,imgsrc})
             <h1>{subtitle2}</h1>
             <h1>{subtitle3}</h1>
             <a href={btnlink}>
-              <button>{btntext}</button>
+              <button className="banner-btn">{btntext}</button>
             </a>
           </div>
           <div className="col-lg-4">

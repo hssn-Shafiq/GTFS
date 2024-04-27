@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Tools = () => {
+
   return (
     <>
       <div className="untree_co-section pb-0">
@@ -11,7 +12,11 @@ const Tools = () => {
             </div>
           </div>
           <div className="row my-5">
-            <div className="col-6 col-md-6 col-lg-4">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/online.png"
@@ -29,7 +34,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/speedometer.png"
@@ -44,7 +53,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/calculator.png"
@@ -62,7 +75,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/car.png"
@@ -80,7 +97,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/hand.png"
@@ -98,7 +119,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/online.png"
@@ -116,7 +141,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/bus.png"
@@ -134,7 +163,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/map.png"
@@ -152,7 +185,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/calendar.png"
@@ -170,7 +207,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/online.png"
@@ -189,7 +230,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/timetable.png"
@@ -207,7 +252,11 @@ const Tools = () => {
                 <a href="">more details</a>
               </div>
             </div>
-            <div className="col-6 col-md-6 col-lg-4 my-5">
+            <div
+              className="col-6 col-md-6 col-lg-4 my-5"
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-center"
+            >
               <div className="service text-center">
                 <img
                   src="images/icons/expectation.png"

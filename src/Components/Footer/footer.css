@@ -86,11 +86,11 @@
     color: #6998ab;
   }
   .site-footer ul.quick-info li.email:before {
-    content: "\f0e0";
+    content: "✉";
   }
   .site-footer ul.quick-info li.phone:before {
-    content: "\f095";
+    content: "☎";
   }
   .site-footer ul.quick-info li.address:before {
-    content: "\e8b4";
+    content: "📌";
   }

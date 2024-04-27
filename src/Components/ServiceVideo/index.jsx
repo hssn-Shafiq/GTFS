@@ -7,7 +7,7 @@ const ServiceVideo = () => {
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6">
-              <figure className="img-play-video">
+              <figure className="img-play-video" data-aos="zoom-in">
                 <a
                   id="play-video"
                   className="video-play-button"
@@ -23,7 +23,7 @@ const ServiceVideo = () => {
                 />
               </figure>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-5" data-aos="fade-left">
               <h2 className="section-title text-left mb-4">
                 Take a look at our service
               </h2>
@@ -47,7 +47,7 @@ const ServiceVideo = () => {
         <li>Guide Books</li> */}
               </ul>
               <p>
-                <a href="#" className="btn btn-primary">
+                <a href="/services" className="btn btn-primary">
                   Get Started
                 </a>
               </p>

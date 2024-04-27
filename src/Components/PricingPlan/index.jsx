@@ -6,7 +6,7 @@ const PricingPlan = () => {
       <>
         <div className="untree_co-section pb-0 mb-0">
           <div className="row text-center justify-content-center mb-5">
-            <div className="col-lg-7">
+            <div className="col-lg-7" data-aos="fade-up">
               <p className="mb-0">Affordable Tools &amp; Calculators</p>
               <h2 className="section-title text-center">Our Pricing Plans</h2>
             </div>
@@ -14,8 +14,8 @@ const PricingPlan = () => {
           <div className="demo">
             <div className="container">
               <div className="row">
-                <div className="col-md-3 col-sm-6">
-                  <div className="pricingTable">
+                <div className="col-md-3 col-sm-6" >
+                  <div className="pricingTable" data-aos="fade-left">
                     <h3 className="title">Bronze</h3>
                     <div className="price-value">
                       <span className="currency">$</span>
@@ -44,8 +44,8 @@ const PricingPlan = () => {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="pricingTable pink">
+                <div className="col-md-3 col-sm-6" >
+                  <div className="pricingTable pink" data-aos="zoom-in">
                     <h3 className="title">Silver</h3>
                     <div className="price-value">
                       <span className="currency">$</span>
@@ -74,8 +74,8 @@ const PricingPlan = () => {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="pricingTable blue">
+                <div className="col-md-3 col-sm-6" >
+                  <div className="pricingTable blue" data-aos="zoom-in">
                     <h3 className="title">Gold</h3>
                     <div className="price-value">
                       <span className="currency">$</span>
@@ -104,8 +104,8 @@ const PricingPlan = () => {
                     </a>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="pricingTable platinium">
+                <div className="col-md-3 col-sm-6" >
+                  <div className="pricingTable platinium" data-aos="fade-right">
                     <h3 className="title">Platinum</h3>
                     <div className="price-value">
                       <span className="currency">$</span>

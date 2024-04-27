@@ -2185,3 +2185,64 @@ a {
   height: 400px;
   width: 100%;
 }
+
+.container-pricing{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 17px;
+
+    h1{
+      font-family: "Poppins";
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+    }
+    p{
+      font-size: 15px;
+      font-family: "Poppins";
+      text-align: center;
+
+    }
+}
+.top-heading-banner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  background:linear-gradient(250deg, #023460, #1c2331 80%);
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  h1{
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  }
+  p{
+    color: rgba(255, 255, 255, 0.694);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 1024px) { 
+    /* STYLES HERE */
+	.container-pricing{
+		max-width: 800px;
+		margin: 0 auto;
+		margin-top: 3rem;
+		font-size: 17px;
+    text-align: center;
+	}
+	.container-heading img{
+		height: 200px;
+	}
+	.container-pricing{
+		margin-left: 20px;
+		margin-right: 20px;
+		/* margin: 0 auto; */
+	}
+}

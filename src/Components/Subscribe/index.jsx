@@ -16,7 +16,7 @@ const Subscribe = () => {
               </p>
               <p className="mb-0">
                 <a
-                  href="booking.html"
+                  href="/signin"
                   className="btn btn-outline-white text-white btn-md font-weight-bold"
                 >
                   Get in touch

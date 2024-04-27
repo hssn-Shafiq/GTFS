@@ -10,7 +10,9 @@ const Header = () => {
               <span className="icofont-close js-menu-toggle" />
             </div>
           </div>
-          <div className="site-mobile-menu-body" />
+          <div className="site-mobile-menu-body" >
+            <h2>Hello</h2>
+          </div>
         </div>
         <nav className="site-nav">
           <div className="container">
@@ -24,13 +26,12 @@ const Header = () => {
                   <a href="/">GTFS</a>
                 </li>
                 <li>
-                  <a href="/Services">Resources</a>
+                  <a href="/Resources">Resources</a>
                 </li>
                 <li>
                   <a href="/Pricing">Pricing</a>
                 </li>
                 {/* <li><a href="about.html">About</a></li> */}
-               
                 <li className="dropdown">
                   <a
                     href="#"
@@ -91,7 +92,30 @@ const Header = () => {
                     </li>
                   </ul>
                 </li>
-                &nbsp; &nbsp;
+                <li className="dropdown">
+                  <a
+                    href="#"
+                    className="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    FAQs <span className="caret" />
+                  </a>
+                  <ul className="dropdown-menu">
+                    {/* Dropdown menu items */}
+                    <li>
+                      <a href="/PricingFaq">Pricing FAQs</a>
+                    </li>
+                    <li>
+                      <a href="/UserFaq">Account &amp; User FAQs</a>
+                    </li>
+                    <li>
+                      <a href="/DataGarenteeFaq">Data Guarantee </a>
+                    </li>
+                  </ul>
+                </li>
                 <li>
                   <a href="/SignIn">Login</a>
                 </li>

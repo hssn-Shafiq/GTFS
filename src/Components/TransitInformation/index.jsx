@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./inform.css"
 const TransitInformation = ({title,imgsrc,detail}) => {
   return (
     <>
